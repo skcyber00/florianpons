@@ -1,5 +1,4 @@
 import React from "react";
-import "../assets/css/components/intro.scss";
 
 function HeaderIntro() {
   return (
@@ -20,6 +19,12 @@ function HeaderIntro() {
             <div class="ligne-horizotal"></div>
           </div>
         </div>
+      </div>
+      <div class="balise-container">
+        <span>&lt;body&gt;</span>
+        <span>&lt;p&gt;</span>
+        <span>&lt;/p&gt;</span>
+        <span>&lt;/body&gt;</span>
       </div>
     </header>
   );

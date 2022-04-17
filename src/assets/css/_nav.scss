@@ -10,10 +10,12 @@
   align-items: center;
   z-index: 9;
   width: 100%;
-  // position: fixed;
   padding: 0rem 15rem;
   height: 8rem;
-
+  @include sm {
+    justify-content: inherit;
+    padding: 0;
+  }
   .topbar-logo {
     a {
       color: var(--text);
@@ -26,6 +28,9 @@
       font-size: 3rem;
       font-weight: 600;
       margin-bottom: 1rem;
+      @include sm {
+        font-size: 2rem;
+      }
     }
   }
 }
@@ -33,7 +38,9 @@
 .topbar-nav ul {
   display: flex;
   height: 3rem;
-
+  @include sm {
+    display: none;
+  }
   ul,
   li {
     margin-right: 4rem;
@@ -65,5 +72,21 @@
     font-weight: 600;
     position: relative;
     bottom: 0.4rem;
+  }
+}
+
+.drawer-mobile {
+  @include sm {
+    display: block;
+  }
+  @include xl {
+    display: none;
+  }
+  .icon-drawer {
+    width: 2.5rem;
+    height: 3rem;
+    color: white;
+    top: -8px;
+    position: relative;
   }
 }

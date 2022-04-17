@@ -1,19 +1,26 @@
 .intro {
-  height: 75vh;
+  height: 85vh;
   .intro-container {
     color: #fff;
     height: auto;
     width: 58rem;
     margin-left: auto;
     margin-right: auto;
-    top: 6rem;
+    top: 10rem;
     position: relative;
+    @include sm {
+      width: auto;
+      top: 0;
+    }
     .intro-body {
       position: relative;
       z-index: 7;
     }
     .intro-color {
       width: 47rem;
+      @include sm {
+        width: auto;
+      }
       height: 47rem;
       position: absolute;
       left: 4rem;
@@ -30,6 +37,9 @@
           rgba(89, 187, 241, 0.39) 0%,
           rgba(58, 58, 58, 0) 100%
         );
+        @include sm {
+          width: auto;
+        }
       }
       .color2 {
         position: absolute;
@@ -42,6 +52,9 @@
           rgba(140, 100, 255, 0.49) 0%,
           rgba(58, 58, 58, 0) 100%
         );
+        @include sm {
+          width: auto;
+        }
       }
       .color3 {
         position: absolute;
@@ -54,12 +67,18 @@
           rgba(100, 255, 218, 0.49) 0%,
           rgba(58, 58, 58, 0) 100%
         );
+        @include sm {
+          width: auto;
+        }
       }
     }
     h1 {
       font-size: 3.3rem;
       font-weight: 800;
       margin-bottom: 2.5rem;
+      @include sm {
+        font-size: 2.3rem;
+      }
     }
 
     .intro-footer {
@@ -75,7 +94,27 @@
         width: 30rem;
         height: 0.05rem;
         position: absolute;
+        @include sm {
+          width: auto;
+        }
       }
     }
+  }
+  .balise-container {
+    height: 30rem;
+    right: 3rem;
+    display: grid;
+    grid-template-areas:
+      "auto"
+      "auto"
+      "auto"
+      "auto";
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.17);
+    position: absolute;
+    top: 17rem;
   }
 }

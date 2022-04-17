@@ -1,7 +1,6 @@
 import React from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import "../assets/css/components/projets.scss";
 
 function SectionProjets() {
   return (

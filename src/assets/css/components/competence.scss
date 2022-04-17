@@ -1,9 +1,10 @@
 .competence {
   background-color: #f3f3f3;
   height: auto;
-  padding-top: 11rem;
-  padding-bottom: 11rem;
-
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  position: relative;
+  z-index: 9;
   .competence-body {
     max-width: 1340px;
     padding-right: 15px;

@@ -11,18 +11,16 @@ import Share from "./components/Navigations/Share";
 function App() {
   return (
     <Router>
-      <div>
-        <NavBar />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/apropos" element={<Apropos />} />
-          <Route exact path="/competences" element={<Competences />} />
-          <Route exact path="/projets" element={<Projets />} />
-          <Route exact path="/contact" element={<Contact />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-        <Share />
-      </div>
+      <NavBar />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/apropos" element={<Apropos />} />
+        <Route exact path="/competences" element={<Competences />} />
+        <Route exact path="/projets" element={<Projets />} />
+        <Route exact path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+      <Share />
     </Router>
   );
 }

@@ -3,6 +3,9 @@
   padding-bottom: 3rem;
   .projets-title {
     max-width: 1700px;
+    @include sm {
+      max-width: auto;
+    }
     margin-right: 0;
     margin-left: auto;
     display: flex;
@@ -11,15 +14,20 @@
     h2 {
       font-style: normal;
       font-weight: 900;
-      font-size: 200px;
+      font-size: 12rem;
       line-height: 242px;
-
       color: rgba(255, 255, 255, 0.04);
+      @include sm {
+        font-size: 5rem;
+      }
     }
     .position-ligne-horizontal {
       top: 9.5rem;
       left: 0.7rem;
       width: 58%;
+      @include sm {
+        width: auto;
+      }
       left: 0.7rem;
       position: relative;
     }

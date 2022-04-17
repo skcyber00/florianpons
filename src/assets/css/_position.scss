@@ -16,6 +16,10 @@
   margin-top: calc(0 * -1);
   margin-right: calc(1.5rem / -2);
   margin-left: calc(1.5rem / -2);
+  @include sm {
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 
 .row > * {

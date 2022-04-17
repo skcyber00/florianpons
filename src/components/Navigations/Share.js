@@ -1,5 +1,4 @@
 import React from "react";
-import "../../assets/css/components/share.scss";
 
 function Share() {
   return (
