@@ -1,0 +1,81 @@
+.intro {
+  height: 75vh;
+  .intro-container {
+    color: #fff;
+    height: auto;
+    width: 58rem;
+    margin-left: auto;
+    margin-right: auto;
+    top: 6rem;
+    position: relative;
+    .intro-body {
+      position: relative;
+      z-index: 7;
+    }
+    .intro-color {
+      width: 47rem;
+      height: 47rem;
+      position: absolute;
+      left: 4rem;
+      bottom: -23rem;
+      z-index: 1;
+      .color1 {
+        position: absolute;
+        width: 387px;
+        height: 376px;
+        left: 389px;
+        top: 8px;
+        background: radial-gradient(
+          50% 50% at 50% 50%,
+          rgba(89, 187, 241, 0.39) 0%,
+          rgba(58, 58, 58, 0) 100%
+        );
+      }
+      .color2 {
+        position: absolute;
+        width: 434px;
+        height: 423px;
+        left: 79px;
+        top: 52px;
+        background: radial-gradient(
+          50% 50% at 50% 50%,
+          rgba(140, 100, 255, 0.49) 0%,
+          rgba(58, 58, 58, 0) 100%
+        );
+      }
+      .color3 {
+        position: absolute;
+        width: 404px;
+        height: 413px;
+        left: 327px;
+        top: 192px;
+        background: radial-gradient(
+          50% 50% at 50% 50%,
+          rgba(100, 255, 218, 0.49) 0%,
+          rgba(58, 58, 58, 0) 100%
+        );
+      }
+    }
+    h1 {
+      font-size: 3.3rem;
+      font-weight: 800;
+      margin-bottom: 2.5rem;
+    }
+
+    .intro-footer {
+      span {
+        font-size: 2.1rem;
+        font-weight: 300;
+        letter-spacing: 5px;
+      }
+      .ligne-horizotal {
+        bottom: 0.9rem;
+        left: 28rem;
+        background: #fff;
+        width: 30rem;
+        height: 0.05rem;
+        position: absolute;
+      }
+    }
+  }
+}

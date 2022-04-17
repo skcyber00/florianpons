@@ -1,0 +1,79 @@
+@import "form";
+@import "modal";
+@import "nav";
+@import "container";
+@import "nav";
+@import "position";
+@import "spacing";
+@import "table";
+@import "tooltip";
+@import "text";
+
+:root {
+  --font-family: "Sofia Pro", sans-serif;
+  --font-secondary: "Inter", sans-serif;
+  --font-logo: "Roboto", sans-serif;
+  --body-color: #1a1a1a;
+  --background-color-grey: #fbfbfb;
+  --line-grey: #dfdfdf;
+  --linear-gradient: linear-gradient(
+    to right,
+    #f8bbce,
+    #f8c4cc,
+    #f7dec7,
+    #ecedc9,
+    #d4f4f4,
+    #d4f5f6
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #1d1d1d;
+}
+
+.ligne-horizontal {
+  background-color: rgba(255, 255, 255, 0.04);
+  width: 100%;
+  height: 0.1rem;
+  position: absolute;
+}
+
+.ligne-vertical {
+  background: #fff;
+  width: 0.05rem;
+  height: 100%;
+  position: absolute;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 11.2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(85, 85, 85);
+}

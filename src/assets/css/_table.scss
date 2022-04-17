@@ -1,0 +1,66 @@
+/* 
+* =========================
+* TABLE
+* =========================
+*/
+.table {
+  --bs-table-bg: transparent;
+  --bs-table-striped-color: #212529;
+  --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+  --bs-table-active-color: #212529;
+  --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+  --bs-table-hover-color: #212529;
+  --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  vertical-align: top;
+  border-color: #dee2e6;
+}
+.table > :not(caption) > * > * {
+  padding: 0.5rem;
+  background-color: var(--bs-table-bg);
+  background-image: linear-gradient(
+    var(--bs-table-accent-bg),
+    var(--bs-table-accent-bg)
+  );
+  border-bottom-width: 1px;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table > thead {
+  vertical-align: bottom;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border: 0 solid;
+  border-color: inherit;
+}
+.table > tbody {
+  vertical-align: inherit;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.table > :not(:last-child) > :last-child > * {
+  border-bottom-color: currentColor;
+}
+
+table {
+  caption-side: bottom;
+  border-collapse: collapse;
+}
