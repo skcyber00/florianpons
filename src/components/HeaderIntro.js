@@ -21,10 +21,10 @@ function HeaderIntro() {
         </div>
       </div>
       <div class="balise-container">
-        <span>&lt;body&gt;</span>
+        {/* <span>&lt;body&gt;</span>
         <span>&lt;p&gt;</span>
         <span>&lt;/p&gt;</span>
-        <span>&lt;/body&gt;</span>
+        <span>&lt;/body&gt;</span> */}
       </div>
     </header>
   );
