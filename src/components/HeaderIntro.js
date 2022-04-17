@@ -15,16 +15,17 @@ function HeaderIntro() {
             <span>Back-End</span>
           </div>
           <div class="intro-footer">
-            <span>Front-End</span> <span>//</span> <span>Full Stack</span>
+            <span>Front-End</span> <span>&#47;&#47;</span>
+            <span>Full Stack</span>
             <div class="ligne-horizotal"></div>
           </div>
         </div>
       </div>
       <div class="balise-container">
-        {/* <span>&lt;body&gt;</span>
+        <span>&lt;body&gt;</span>
         <span>&lt;p&gt;</span>
-        <span>&lt;/p&gt;</span>
-        <span>&lt;/body&gt;</span> */}
+        <span>&lt;&#47;p&gt;</span>
+        <span>&lt;&#47;body&gt;</span>
       </div>
     </header>
   );
