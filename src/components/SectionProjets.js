@@ -21,16 +21,20 @@ function SectionProjets() {
           aria-label="My Favorite Images"
         >
           <SplideSlide>
-            <img class="projets-img" src="/images/sleake.png" alt="Image 1" />
+            <img class="projets-img" src="/images/sleake.png" alt="Sleake" />
           </SplideSlide>
           <SplideSlide>
-            <img class="projets-img" src="/images/resavion.png" alt="Image 2" />
+            <img
+              class="projets-img"
+              src="/images/resavion.png"
+              alt="Resavion"
+            />
           </SplideSlide>
           <SplideSlide>
             <img
               class="projets-img"
               src="/images/prettiersun.png"
-              alt="Image 3"
+              alt="Prettiersun"
             />
           </SplideSlide>
         </Splide>

@@ -8,7 +8,6 @@ import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 
 function NavBar() {
-  const anchor = "right";
   const [state, setState] = React.useState({
     right: false,
   });
