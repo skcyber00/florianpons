@@ -6,6 +6,8 @@ import Button from "@mui/material/Button";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
+import ListItemButton from "@mui/material/ListItemButton";
+import Projets from "../../pages/Projets";
 
 function NavBar() {
   const [state, setState] = React.useState({
@@ -31,13 +33,26 @@ function NavBar() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {["À propos", "Compétences", "Projets", "Contact"].map(
-          (text, index) => (
-            <ListItem button key={text}>
-              <ListItemText primary={text} />
-            </ListItem>
-          )
-        )}
+        <ListItem>
+          <ListItemButton component="a" href="/apropos">
+            <ListItemText primary="À propos" />
+          </ListItemButton>
+        </ListItem>
+        <ListItem>
+          <ListItemButton component="a" href="/competences">
+            <ListItemText primary="Compétences" />
+          </ListItemButton>
+        </ListItem>
+        <ListItem>
+          <ListItemButton component="a" href="/projets">
+            <ListItemText primary="Projets" />
+          </ListItemButton>
+        </ListItem>
+        <ListItem>
+          <ListItemButton component="a" href="/contact">
+            <ListItemText primary="Contact" />
+          </ListItemButton>
+        </ListItem>
       </List>
     </Box>
   );

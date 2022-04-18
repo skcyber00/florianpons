@@ -5,17 +5,23 @@ import SectionCompetences from "../components/SectionCompetences";
 import SectionProjets from "../components/SectionProjets";
 import SectionContact from "../components/SectionContact";
 
-function Home() {
-  return (
-    <div>
-      <Layout>
-        <HeaderIntro />
-        <SectionCompetences />
-        <SectionProjets />
-        <SectionContact />
-      </Layout>
-    </div>
-  );
+class Home extends React.Component {
+  componentDidMount() {
+    document.title = "Home";
+  }
+
+  render() {
+    return (
+      <div>
+        <Layout>
+          <HeaderIntro />
+          <SectionCompetences />
+          <SectionProjets />
+          <SectionContact />
+        </Layout>
+      </div>
+    );
+  }
 }
 
 export default Home;

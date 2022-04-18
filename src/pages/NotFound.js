@@ -1,11 +1,13 @@
 import React from "react";
 
-function About() {
-  return <div>404 Not Found</div>;
+class NotFound extends React.Component {
+  componentDidMount() {
+    document.title = "NotFound";
+  }
+
+  render() {
+    return <div>404 Not Found</div>;
+  }
 }
 
-// const About = () => {
-//   return <div>About</div>;
-// };
-
-export default About;
+export default NotFound;

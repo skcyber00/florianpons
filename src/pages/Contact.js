@@ -1,7 +1,13 @@
 import React from "react";
 
-function Contact() {
-  return <div>Contact</div>;
+class Contact extends React.Component {
+  componentDidMount() {
+    document.title = "Contact";
+  }
+
+  render() {
+    return <div>Contact</div>;
+  }
 }
 
 export default Contact;
