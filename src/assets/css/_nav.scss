@@ -72,6 +72,9 @@
       position: relative;
       bottom: 0.4rem;
     }
+    button:hover {
+      background-color: rgb(235, 235, 235);
+    }
   }
   .drawer-mobile {
     @include sm {
