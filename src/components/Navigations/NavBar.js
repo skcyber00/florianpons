@@ -7,7 +7,6 @@ import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 import ListItemButton from "@mui/material/ListItemButton";
-import Projets from "../../pages/Projets";
 
 function NavBar() {
   const [state, setState] = React.useState({
