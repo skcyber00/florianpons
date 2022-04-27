@@ -84,3 +84,20 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(85, 85, 85);
 }
+
+.to_black {
+  color: #1a1a1a;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.icon {
+  top: 0.1rem;
+  position: relative;
+  font-size: 1.2rem;
+  margin-left: 0.4rem;
+}
+
+.container-white {
+  background-color: #f3f3f3;
+}

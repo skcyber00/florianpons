@@ -32,8 +32,8 @@
       }
       .color1 {
         position: absolute;
-        width: 287px;
-        height: 276px;
+        width: 487px;
+        height: 476px;
         left: 389px;
         top: 8px;
         background: radial-gradient(
@@ -43,12 +43,14 @@
         );
         @include sm {
           left: 0;
+          width: 287px;
+          height: 276px;
         }
       }
       .color2 {
         position: absolute;
-        width: 234px;
-        height: 223px;
+        width: 434px;
+        height: 423px;
         left: 79px;
         top: 52px;
         background: radial-gradient(
@@ -56,11 +58,15 @@
           rgba(140, 100, 255, 0.49) 0%,
           rgba(58, 58, 58, 0) 100%
         );
+        @include sm {
+          width: 234px;
+          height: 223px;
+        }
       }
       .color3 {
         position: absolute;
-        width: 204px;
-        height: 213px;
+        width: 354px;
+        height: 363px;
         left: 327px;
         top: 192px;
         background: radial-gradient(
@@ -70,6 +76,8 @@
         );
         @include sm {
           left: 0;
+          width: 154px;
+          height: 163px;
         }
       }
     }
@@ -89,7 +97,7 @@
         letter-spacing: 5px;
       }
       .ligne-horizotal {
-        bottom: 0.9rem;
+        bottom: 2.1rem;
         left: 28rem;
         background: #fff;
         width: 30rem;

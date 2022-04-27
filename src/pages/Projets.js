@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout/Layout";
 import SectionProjets from "../components/SectionProjets";
+import SectionExperiences from "../components/SectionExperiences";
 
 class Projets extends React.Component {
   componentDidMount() {
@@ -11,6 +12,7 @@ class Projets extends React.Component {
     return (
       <div>
         <Layout>
+          <SectionExperiences />
           <SectionProjets />
         </Layout>
       </div>
