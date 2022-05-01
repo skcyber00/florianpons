@@ -4,7 +4,7 @@ import Footer from "../Navigations/Footer";
 function Layout({ children }) {
   return (
     <>
-      <main class="margin_80">{children}</main>
+      <main class="">{children}</main>
       <Footer />
     </>
   );

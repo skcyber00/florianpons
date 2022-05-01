@@ -39,7 +39,7 @@ function SectionCompetences() {
               </p>
             </div>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-5 jc-center">
             <div class="list">
               <span>API Rest</span>
               <span>CSS</span>
@@ -48,18 +48,23 @@ function SectionCompetences() {
               <span>Figma</span>
               <span>Flutter</span>
               <span>HTML</span>
+              <span>Iconify</span>
               <span>Javascript</span>
               <span>Git</span>
+              <span>Google Firebase</span>
               <span>Laravel</span>
               <span>MongoDB</span>
+              <span>Netlify</span>
               <span>NodeJs</span>
               <span>NuxtJs</span>
+              <span>OVH</span>
               <span>PHP</span>
               <span>ReactJs</span>
               <span>ReactNative</span>
               <span>SASS</span>
               <span>Sequelize</span>
               <span>Slim</span>
+              <span>Stripe</span>
               <span>SQL</span>
               <span>Vuejs</span>
             </div>

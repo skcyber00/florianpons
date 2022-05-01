@@ -43,7 +43,9 @@ function SectionApropos() {
               <p>
                 Vous voulez échanger avec moi sur mon parcours ou sur un projet
                 en particulier ? Avec grand plaisir on se retrouve ici !
-                https://bit.ly/38l44b9
+                <a href="https://bit.ly/38l44b9" class="to_black">
+                  https://bit.ly/38l44b9
+                </a>
               </p>
             </div>
             <div class="col-md-12 description margin_60">
