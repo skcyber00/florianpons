@@ -33,8 +33,13 @@ function Footer() {
       <div class="topbar">
         <div class="topbar-logo">
           <div class="logo-title">
-            <span class="iconify" data-icon="codicon:github-alt"></span>
-            <span class="iconify" data-icon="akar-icons:linkedin-fill"></span>
+            <a href="https://github.com/skcyber00">
+              <span class="iconify" data-icon="codicon:github-alt"></span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/florian-pons-3b4706206/">
+              <span class="iconify" data-icon="akar-icons:linkedin-fill"></span>
+            </a>
           </div>
         </div>
         <div class="topbar-nav">

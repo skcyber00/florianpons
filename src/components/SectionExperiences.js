@@ -1,9 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Prettiersun from "./Projets/Prettiersun";
-import Sleake from "./Projets/Sleake";
-import Resavion from "./Projets/Resavion";
-import Adista from "./Projets/Adista";
 
 function SectionExperiences() {
   return (
