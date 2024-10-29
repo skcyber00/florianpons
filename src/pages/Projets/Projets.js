@@ -1,7 +1,7 @@
 import React from "react";
-import Layout from "../components/Layout/Layout";
-import SectionProjets from "../components/SectionProjets";
-import SectionExperiences from "../components/SectionExperiences";
+import Layout from "../../components/Layout/Layout";
+import SectionProjets from "../../components/SectionProjets";
+import SectionExperiences from "../../components/SectionExperiences";
 
 class Projets extends React.Component {
   componentDidMount() {

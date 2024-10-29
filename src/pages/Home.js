@@ -7,7 +7,7 @@ import SectionContact from "../components/SectionContact";
 
 class Home extends React.Component {
   componentDidMount() {
-    document.title = "Home";
+    document.title = "Florian Pons";
   }
 
   render() {
