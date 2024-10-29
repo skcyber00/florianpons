@@ -28,35 +28,74 @@ class ProjetsSleake extends React.Component {
                 aria-label="My Favorite Images"
               >
                 <SplideSlide>
-                  <img class="projets-img" src="/images/sleake/sleake-1.png" />
+                  <img
+                    class="projets-img"
+                    src="/images/sleake/sleake-1.png"
+                    alt="sleake"
+                  />
                 </SplideSlide>
                 <SplideSlide>
-                  <img class="projets-img" src="/images/sleake/sleake-2.png" />
+                  <img
+                    class="projets-img"
+                    src="/images/sleake/sleake-2.png"
+                    alt="sleake"
+                  />
                 </SplideSlide>
                 <SplideSlide>
-                  <img class="projets-img" src="/images/sleake/sleake-3.png" />
+                  <img
+                    class="projets-img"
+                    src="/images/sleake/sleake-3.png"
+                    alt="sleake"
+                  />
                 </SplideSlide>
                 <SplideSlide>
-                  <img class="projets-img" src="/images/sleake/sleake-4.png" />
+                  <img
+                    class="projets-img"
+                    src="/images/sleake/sleake-4.png"
+                    alt="sleake"
+                  />
                 </SplideSlide>
                 <SplideSlide>
-                  <img class="projets-img" src="/images/sleake/sleake-5.png" />
+                  <img
+                    class="projets-img"
+                    src="/images/sleake/sleake-5.png"
+                    alt="sleake"
+                  />
                 </SplideSlide>
                 <SplideSlide>
-                  <img class="projets-img" src="/images/sleake/sleake-6.png" />
+                  <img
+                    class="projets-img"
+                    src="/images/sleake/sleake-6.png"
+                    alt="sleake"
+                  />
                 </SplideSlide>
                 <SplideSlide>
-                  <img class="projets-img" src="/images/sleake/sleake-7.png" />
+                  <img
+                    class="projets-img"
+                    src="/images/sleake/sleake-7.png"
+                    alt="sleake"
+                  />
                 </SplideSlide>
                 <SplideSlide>
-                  <img class="projets-img" src="/images/sleake/sleake-8.png" />
+                  <img
+                    class="projets-img"
+                    src="/images/sleake/sleake-8.png"
+                    alt="sleake"
+                  />
                 </SplideSlide>
                 <SplideSlide>
-                  <img class="projets-img" src="/images/sleake/sleake-9.png" />
+                  <img
+                    class="projets-img"
+                    src="/images/sleake/sleake-9.png"
+                    alt="sleake"
+                  />
                 </SplideSlide>
-
                 <SplideSlide>
-                  <img class="projets-img" src="/images/sleake/sleake-10.png" />
+                  <img
+                    class="projets-img"
+                    src="/images/sleake/sleake-10.png"
+                    alt="sleake"
+                  />
                 </SplideSlide>
               </Splide>
             </div>

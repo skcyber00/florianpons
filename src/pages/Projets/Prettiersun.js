@@ -31,54 +31,63 @@ class Projetsprettiersun extends React.Component {
                   <img
                     class="projets-img"
                     src="/images/prettiersun/prettiersun-1.png"
+                    alt="prettiersun"
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <img
                     class="projets-img"
                     src="/images/prettiersun/prettiersun-2.png"
+                    alt="prettiersun"
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <img
                     class="projets-img"
                     src="/images/prettiersun/prettiersun-3.png"
+                    alt="prettiersun"
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <img
                     class="projets-img"
                     src="/images/prettiersun/prettiersun-4.png"
+                    alt="prettiersun"
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <img
                     class="projets-img"
                     src="/images/prettiersun/prettiersun-5.png"
+                    alt="prettiersun"
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <img
                     class="projets-img"
                     src="/images/prettiersun/prettiersun-6.png"
+                    alt="prettiersun"
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <img
                     class="projets-img"
                     src="/images/prettiersun/prettiersun-7.png"
+                    alt="prettiersun"
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <img
                     class="projets-img"
                     src="/images/prettiersun/prettiersun-8.png"
+                    alt="prettiersun"
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <img
                     class="projets-img"
                     src="/images/prettiersun/prettiersun-9.png"
+                    alt="prettiersun"
                   />
                 </SplideSlide>
 
@@ -86,30 +95,35 @@ class Projetsprettiersun extends React.Component {
                   <img
                     class="projets-img"
                     src="/images/prettiersun/prettiersun-10.png"
+                    alt="prettiersun"
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <img
                     class="projets-img"
                     src="/images/prettiersun/prettiersun-11.png"
+                    alt="prettiersun"
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <img
                     class="projets-img"
                     src="/images/prettiersun/prettiersun-12.png"
+                    alt="prettiersun"
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <img
                     class="projets-img"
                     src="/images/prettiersun/prettiersun-13.png"
+                    alt="prettiersun"
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <img
                     class="projets-img"
                     src="/images/prettiersun/prettiersun-14.png"
+                    alt="prettiersun"
                   />
                 </SplideSlide>
               </Splide>

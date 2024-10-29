@@ -31,54 +31,63 @@ class ProjetsResavion extends React.Component {
                   <img
                     class="projets-img"
                     src="/images/resavion/resavion-1.png"
+                    alt="resavion"
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <img
                     class="projets-img"
                     src="/images/resavion/resavion-2.png"
+                    alt="resavion"
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <img
                     class="projets-img"
                     src="/images/resavion/resavion-3.png"
+                    alt="resavion"
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <img
                     class="projets-img"
                     src="/images/resavion/resavion-4.png"
+                    alt="resavion"
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <img
                     class="projets-img"
                     src="/images/resavion/resavion-5.png"
+                    alt="resavion"
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <img
                     class="projets-img"
                     src="/images/resavion/resavion-6.png"
+                    alt="resavion"
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <img
                     class="projets-img"
                     src="/images/resavion/resavion-7.png"
+                    alt="resavion"
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <img
                     class="projets-img"
                     src="/images/resavion/resavion-8.png"
+                    alt="resavion"
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <img
                     class="projets-img"
                     src="/images/resavion/resavion-9.png"
+                    alt="resavion"
                   />
                 </SplideSlide>
 
@@ -86,6 +95,7 @@ class ProjetsResavion extends React.Component {
                   <img
                     class="projets-img"
                     src="/images/resavion/resavion-10.png"
+                    alt="resavion"
                   />
                 </SplideSlide>
               </Splide>
